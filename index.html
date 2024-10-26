@@ -1,1 +1,70 @@
-<h1>HTML Task</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <center>
+    <legend>INFORMATION 1</legend>
+    <fieldset>
+    <form action="#apiaddress" method="get" width="">
+        <label for="username">NAME</label>
+        <input required type="text" name="name" id="username" placeholder="ENTER YOUR NAME">
+        <br>
+        <label for="email">MAIL</label>
+        <input required type="email" name="email" id="email">
+        <br>
+        <label for="password">PASSWORD</label>
+        <input required type="password" name="password" id="password">
+        <br>
+        <label for="date_of_birth">DOB</label>
+        <input min="2000-01-01" max="2005-12-12" type="date" name="dateofbirth" id="date_of_birth">
+        <br>
+        <label for="address">Address</label>
+        <textarea  name="address" id="address"></textarea>
+        <br>
+        <label for="age">AGE</label>
+        <input type="number" name="age" id="age">
+        <br>
+        <label for="gendermale">GENDER</label>
+        <input type="radio" name="gender" id="gendername" value="male">
+        <label for="gendermale">male</label>
+        <input type="radio" name="gender" id="genderfemale">
+        <label for="genderfemale">female</label>
+        <input type="radio" name="gender" id="genderother">
+        <label for="genderother">other</label>
+    </fieldset>
+    <legend>INFORMATION 2</legend>
+    <fieldset>
+     <label for="image">Upload photo</label>
+        <input accept="image/*" type="file" name="image" id="image">
+        <br>
+        <br>
+        <select name="country" id="country">
+        <option value="">select country</option>
+        <option value="ind">india</option>
+        <option value="eng">england</option>
+        <option value="pak">pakistan</option>
+        <option value="ban">bangaladesh</option>
+        <option value="usa">united state of america</option>
+        </select>
+        <br>
+        <br>
+        <select name="state" id="state">
+        <option value="">select state</option>
+        <option value="tn">tamilnadu</option>
+        <option value="kl">kerala</option>
+        <option value="dl">delhi</option>
+        </select>
+        <br>
+        <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </fieldset>
+    </form>
+    </center>
+</body>
+</body>
+</html>
